@@ -19,4 +19,9 @@ public class SeriesTest {
         assertEquals(1.0, Series.series(1, 0, 5));
     }
 
+    @Test
+    public void test5Steps1Start0MultIs4() {
+        assertEquals(4.0, Series.series(1, 0, 5));
+    }
+
 }
